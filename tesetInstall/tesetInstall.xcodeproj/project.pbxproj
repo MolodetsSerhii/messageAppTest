@@ -13,13 +13,6 @@
 		086D6C1E2AC1B60D00715E29 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C1D2AC1B60D00715E29 /* MessagesViewController.swift */; };
 		086D6C212AC1B60D00715E29 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C1F2AC1B60D00715E29 /* MainInterface.storyboard */; };
 		086D6C232AC1B60E00715E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C222AC1B60E00715E29 /* Assets.xcassets */; };
-		086D6C302AC1B78200715E29 /* VideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C2F2AC1B78200715E29 /* VideoService.swift */; };
-		086D6C322AC1D18D00715E29 /* CompactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C312AC1D18D00715E29 /* CompactViewController.swift */; };
-		086D6C342AC1D1A900715E29 /* Compact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C332AC1D1A900715E29 /* Compact.storyboard */; };
-		086D6C382AC1D20000715E29 /* ExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C372AC1D20000715E29 /* ExpandedViewController.swift */; };
-		086D6C3A2AC1D20C00715E29 /* Expanded.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C392AC1D20C00715E29 /* Expanded.storyboard */; };
-		086D6C3D2AC1D35C00715E29 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C3C2AC1D35C00715E29 /* Storyboarded.swift */; };
-		086D6C3F2AC1E59600715E29 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C3E2AC1E59600715E29 /* VideoPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +49,6 @@
 		086D6C222AC1B60E00715E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		086D6C242AC1B60E00715E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		086D6C2E2AC1B72E00715E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		086D6C2F2AC1B78200715E29 /* VideoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoService.swift; sourceTree = "<group>"; };
-		086D6C312AC1D18D00715E29 /* CompactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactViewController.swift; sourceTree = "<group>"; };
-		086D6C332AC1D1A900715E29 /* Compact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Compact.storyboard; sourceTree = "<group>"; };
-		086D6C372AC1D20000715E29 /* ExpandedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedViewController.swift; sourceTree = "<group>"; };
-		086D6C392AC1D20C00715E29 /* Expanded.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Expanded.storyboard; sourceTree = "<group>"; };
-		086D6C3C2AC1D35C00715E29 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		086D6C3E2AC1E59600715E29 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,32 +104,9 @@
 			children = (
 				086D6C222AC1B60E00715E29 /* Assets.xcassets */,
 				086D6C242AC1B60E00715E29 /* Info.plist */,
-				086D6C2F2AC1B78200715E29 /* VideoService.swift */,
 				086D6C3B2AC1D22100715E29 /* MainView */,
-				086D6C362AC1D1C600715E29 /* ExpandedView */,
-				086D6C352AC1D1B000715E29 /* CompactView */,
-				086D6C3C2AC1D35C00715E29 /* Storyboarded.swift */,
-				086D6C3E2AC1E59600715E29 /* VideoPlayerView.swift */,
 			);
 			path = "tesetInstall MessagesExtension";
-			sourceTree = "<group>";
-		};
-		086D6C352AC1D1B000715E29 /* CompactView */ = {
-			isa = PBXGroup;
-			children = (
-				086D6C312AC1D18D00715E29 /* CompactViewController.swift */,
-				086D6C332AC1D1A900715E29 /* Compact.storyboard */,
-			);
-			path = CompactView;
-			sourceTree = "<group>";
-		};
-		086D6C362AC1D1C600715E29 /* ExpandedView */ = {
-			isa = PBXGroup;
-			children = (
-				086D6C372AC1D20000715E29 /* ExpandedViewController.swift */,
-				086D6C392AC1D20C00715E29 /* Expanded.storyboard */,
-			);
-			path = ExpandedView;
 			sourceTree = "<group>";
 		};
 		086D6C3B2AC1D22100715E29 /* MainView */ = {
@@ -243,9 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				086D6C232AC1B60E00715E29 /* Assets.xcassets in Resources */,
-				086D6C342AC1D1A900715E29 /* Compact.storyboard in Resources */,
 				086D6C212AC1B60D00715E29 /* MainInterface.storyboard in Resources */,
-				086D6C3A2AC1D20C00715E29 /* Expanded.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,12 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				086D6C322AC1D18D00715E29 /* CompactViewController.swift in Sources */,
 				086D6C1E2AC1B60D00715E29 /* MessagesViewController.swift in Sources */,
-				086D6C3D2AC1D35C00715E29 /* Storyboarded.swift in Sources */,
-				086D6C302AC1B78200715E29 /* VideoService.swift in Sources */,
-				086D6C382AC1D20000715E29 /* ExpandedViewController.swift in Sources */,
-				086D6C3F2AC1E59600715E29 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
