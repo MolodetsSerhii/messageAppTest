@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086D6C102AC1B60D00715E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C0F2AC1B60D00715E29 /* Assets.xcassets */; };
+		086D6C162AC1B60D00715E29 /* tesetInstall MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 086D6C152AC1B60D00715E29 /* tesetInstall MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		086D6C1B2AC1B60D00715E29 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086D6C1A2AC1B60D00715E29 /* Messages.framework */; };
+		086D6C1E2AC1B60D00715E29 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C1D2AC1B60D00715E29 /* MessagesViewController.swift */; };
+		086D6C212AC1B60D00715E29 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C1F2AC1B60D00715E29 /* MainInterface.storyboard */; };
+		086D6C232AC1B60E00715E29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C222AC1B60E00715E29 /* Assets.xcassets */; };
+		086D6C302AC1B78200715E29 /* VideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C2F2AC1B78200715E29 /* VideoService.swift */; };
+		086D6C322AC1D18D00715E29 /* CompactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C312AC1D18D00715E29 /* CompactViewController.swift */; };
+		086D6C342AC1D1A900715E29 /* Compact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C332AC1D1A900715E29 /* Compact.storyboard */; };
+		086D6C382AC1D20000715E29 /* ExpandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C372AC1D20000715E29 /* ExpandedViewController.swift */; };
+		086D6C3A2AC1D20C00715E29 /* Expanded.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086D6C392AC1D20C00715E29 /* Expanded.storyboard */; };
+		086D6C3D2AC1D35C00715E29 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C3C2AC1D35C00715E29 /* Storyboarded.swift */; };
+		086D6C3F2AC1E59600715E29 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D6C3E2AC1E59600715E29 /* VideoPlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		086D6C172AC1B60D00715E29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086D6C062AC1B60C00715E29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086D6C142AC1B60D00715E29;
+			remoteInfo = "tesetInstall MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		086D6C2A2AC1B60E00715E29 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				086D6C162AC1B60D00715E29 /* tesetInstall MessagesExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		086D6C0C2AC1B60C00715E29 /* tesetInstall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tesetInstall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		086D6C0F2AC1B60D00715E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086D6C152AC1B60D00715E29 /* tesetInstall MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "tesetInstall MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		086D6C1A2AC1B60D00715E29 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		086D6C1D2AC1B60D00715E29 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		086D6C202AC1B60D00715E29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		086D6C222AC1B60E00715E29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086D6C242AC1B60E00715E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086D6C2E2AC1B72E00715E29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		086D6C2F2AC1B78200715E29 /* VideoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoService.swift; sourceTree = "<group>"; };
+		086D6C312AC1D18D00715E29 /* CompactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactViewController.swift; sourceTree = "<group>"; };
+		086D6C332AC1D1A900715E29 /* Compact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Compact.storyboard; sourceTree = "<group>"; };
+		086D6C372AC1D20000715E29 /* ExpandedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedViewController.swift; sourceTree = "<group>"; };
+		086D6C392AC1D20C00715E29 /* Expanded.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Expanded.storyboard; sourceTree = "<group>"; };
+		086D6C3C2AC1D35C00715E29 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		086D6C3E2AC1E59600715E29 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086D6C122AC1B60D00715E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086D6C1B2AC1B60D00715E29 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086D6C052AC1B60C00715E29 = {
+			isa = PBXGroup;
+			children = (
+				086D6C0E2AC1B60C00715E29 /* tesetInstall */,
+				086D6C1C2AC1B60D00715E29 /* tesetInstall MessagesExtension */,
+				086D6C192AC1B60D00715E29 /* Frameworks */,
+				086D6C0D2AC1B60C00715E29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		086D6C0D2AC1B60C00715E29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086D6C0C2AC1B60C00715E29 /* tesetInstall.app */,
+				086D6C152AC1B60D00715E29 /* tesetInstall MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086D6C0E2AC1B60C00715E29 /* tesetInstall */ = {
+			isa = PBXGroup;
+			children = (
+				086D6C2E2AC1B72E00715E29 /* Info.plist */,
+				086D6C0F2AC1B60D00715E29 /* Assets.xcassets */,
+			);
+			path = tesetInstall;
+			sourceTree = "<group>";
+		};
+		086D6C192AC1B60D00715E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				086D6C1A2AC1B60D00715E29 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		086D6C1C2AC1B60D00715E29 /* tesetInstall MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				086D6C222AC1B60E00715E29 /* Assets.xcassets */,
+				086D6C242AC1B60E00715E29 /* Info.plist */,
+				086D6C2F2AC1B78200715E29 /* VideoService.swift */,
+				086D6C3B2AC1D22100715E29 /* MainView */,
+				086D6C362AC1D1C600715E29 /* ExpandedView */,
+				086D6C352AC1D1B000715E29 /* CompactView */,
+				086D6C3C2AC1D35C00715E29 /* Storyboarded.swift */,
+				086D6C3E2AC1E59600715E29 /* VideoPlayerView.swift */,
+			);
+			path = "tesetInstall MessagesExtension";
+			sourceTree = "<group>";
+		};
+		086D6C352AC1D1B000715E29 /* CompactView */ = {
+			isa = PBXGroup;
+			children = (
+				086D6C312AC1D18D00715E29 /* CompactViewController.swift */,
+				086D6C332AC1D1A900715E29 /* Compact.storyboard */,
+			);
+			path = CompactView;
+			sourceTree = "<group>";
+		};
+		086D6C362AC1D1C600715E29 /* ExpandedView */ = {
+			isa = PBXGroup;
+			children = (
+				086D6C372AC1D20000715E29 /* ExpandedViewController.swift */,
+				086D6C392AC1D20C00715E29 /* Expanded.storyboard */,
+			);
+			path = ExpandedView;
+			sourceTree = "<group>";
+		};
+		086D6C3B2AC1D22100715E29 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				086D6C1D2AC1B60D00715E29 /* MessagesViewController.swift */,
+				086D6C1F2AC1B60D00715E29 /* MainInterface.storyboard */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086D6C0B2AC1B60C00715E29 /* tesetInstall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086D6C2B2AC1B60E00715E29 /* Build configuration list for PBXNativeTarget "tesetInstall" */;
+			buildPhases = (
+				086D6C0A2AC1B60C00715E29 /* Resources */,
+				086D6C2A2AC1B60E00715E29 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086D6C182AC1B60D00715E29 /* PBXTargetDependency */,
+			);
+			name = tesetInstall;
+			productName = tesetInstall;
+			productReference = 086D6C0C2AC1B60C00715E29 /* tesetInstall.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		086D6C142AC1B60D00715E29 /* tesetInstall MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086D6C272AC1B60E00715E29 /* Build configuration list for PBXNativeTarget "tesetInstall MessagesExtension" */;
+			buildPhases = (
+				086D6C112AC1B60D00715E29 /* Sources */,
+				086D6C122AC1B60D00715E29 /* Frameworks */,
+				086D6C132AC1B60D00715E29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tesetInstall MessagesExtension";
+			productName = "tesetInstall MessagesExtension";
+			productReference = 086D6C152AC1B60D00715E29 /* tesetInstall MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		086D6C062AC1B60C00715E29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					086D6C0B2AC1B60C00715E29 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					086D6C142AC1B60D00715E29 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 086D6C092AC1B60C00715E29 /* Build configuration list for PBXProject "tesetInstall" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 086D6C052AC1B60C00715E29;
+			productRefGroup = 086D6C0D2AC1B60C00715E29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				086D6C0B2AC1B60C00715E29 /* tesetInstall */,
+				086D6C142AC1B60D00715E29 /* tesetInstall MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086D6C0A2AC1B60C00715E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086D6C102AC1B60D00715E29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086D6C132AC1B60D00715E29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086D6C232AC1B60E00715E29 /* Assets.xcassets in Resources */,
+				086D6C342AC1D1A900715E29 /* Compact.storyboard in Resources */,
+				086D6C212AC1B60D00715E29 /* MainInterface.storyboard in Resources */,
+				086D6C3A2AC1D20C00715E29 /* Expanded.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086D6C112AC1B60D00715E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086D6C322AC1D18D00715E29 /* CompactViewController.swift in Sources */,
+				086D6C1E2AC1B60D00715E29 /* MessagesViewController.swift in Sources */,
+				086D6C3D2AC1D35C00715E29 /* Storyboarded.swift in Sources */,
+				086D6C302AC1B78200715E29 /* VideoService.swift in Sources */,
+				086D6C382AC1D20000715E29 /* ExpandedViewController.swift in Sources */,
+				086D6C3F2AC1E59600715E29 /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		086D6C182AC1B60D00715E29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086D6C142AC1B60D00715E29 /* tesetInstall MessagesExtension */;
+			targetProxy = 086D6C172AC1B60D00715E29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		086D6C1F2AC1B60D00715E29 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086D6C202AC1B60D00715E29 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		086D6C252AC1B60E00715E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		086D6C262AC1B60E00715E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		086D6C282AC1B60E00715E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D8498233T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tesetInstall MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = tesetInstall;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Molodets-Serhii.tesetInstall.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		086D6C292AC1B60E00715E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D8498233T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tesetInstall MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = tesetInstall;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Molodets-Serhii.tesetInstall.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		086D6C2C2AC1B60E00715E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D8498233T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tesetInstall/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "media library";
+				INFOPLIST_KEY_NSCameraUsageDescription = cam;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = micro;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "photo liba";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Molodets-Serhii.tesetInstall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		086D6C2D2AC1B60E00715E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5D8498233T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tesetInstall/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "media library";
+				INFOPLIST_KEY_NSCameraUsageDescription = cam;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = micro;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "photo liba";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Molodets-Serhii.tesetInstall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086D6C092AC1B60C00715E29 /* Build configuration list for PBXProject "tesetInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086D6C252AC1B60E00715E29 /* Debug */,
+				086D6C262AC1B60E00715E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086D6C272AC1B60E00715E29 /* Build configuration list for PBXNativeTarget "tesetInstall MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086D6C282AC1B60E00715E29 /* Debug */,
+				086D6C292AC1B60E00715E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086D6C2B2AC1B60E00715E29 /* Build configuration list for PBXNativeTarget "tesetInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086D6C2C2AC1B60E00715E29 /* Debug */,
+				086D6C2D2AC1B60E00715E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 086D6C062AC1B60C00715E29 /* Project object */;
+}
